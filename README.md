@@ -28,3 +28,6 @@ git push -u origin main
 1. npx cdk bootstrap aws://058264531732/us-east-1 --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess
 
 2. git token --
+
+3. store github-token in aws secrets manager  name should be "github-token"--store in plaintext
+https://stackoverflow.com/questions/71905312/401-bad-credentials-when-try-to-hook-code-pipeline-with-github

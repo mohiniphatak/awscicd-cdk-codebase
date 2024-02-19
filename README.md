@@ -27,4 +27,4 @@ git push -u origin main
 
 1. npx cdk bootstrap aws://058264531732/us-east-1 --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess
 
-2. git token --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
+2. git token --
